@@ -57,10 +57,10 @@ u: unicode support, corrected processing of surrogate pairs enabled
 y: sticky mode, search at an exact position within the text
 
 ### Grouping and Capturing
-Capturing allows for treating multiple characters as a single unit and is indicated with ( "" ). Grouping refers to storing the captured item within the program's memory so that it an be recalled.
+Capturing allows for treating multiple characters as a single unit and is indicated with ( "" ). Grouping refers to storing the captured item within the program's memory so that it can be recalled.
 
 ### Bracket Expressions
-A bracket expression is indicated with ( `` ). It includes the specific characters that are allowed to match. Ranges or inputs or exact characters are both valid inputs, ie. a-z or 0-9.
+A bracket expression is indicated with ( `` ). It includes the specific characters that are allowed to match. Ranges of inputs or exact characters are both valid entries, ie. a-z or 0-9.
 
 ### Greedy and Lazy Match
 Greedy matches ( * ) will return as many matches as possible whereas lazy matches ( ? ) will return as few matches as possible. Each are useful in specific instances depending on whether parameters need to be kept tight or loose. These matches can include partials, strings, single characters and more.
