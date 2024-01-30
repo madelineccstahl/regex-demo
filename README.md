@@ -36,7 +36,9 @@ Indicated by ( | ). An example would be abc|xyz which is the same as abc or xyz.
 Shortcuts to code sets to be included in the regex. Indicated with ( \ ) followed by a singular charater. Common character classes include:
 
 \b: word boundary. This class is followed by a specified string. Ie, \bmac will indicate macintosh but not insomniac.
+
 \d: digit, same as array [0-9].
+
 \w: ["a-zA-Z0-9_"]: universal regex class, includes most often used characters
 
 ### Flags
